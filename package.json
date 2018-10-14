@@ -1,8 +1,9 @@
 {
-  "name": "react-treebeard",
-  "version": "3.1.0",
-  "description": "React Tree View Component",
+  "name": "@maxfield/react-treebeard",
+  "version": "4.0.0",
+  "description": "React Tree View Component (Cyber Agent git-push-hackathon edition)",
   "main": "index.js",
+  "typings": "./react-treebeard.d.ts",
   "scripts": {
     "prepublish": "npm run lib",
     "lib": "npm run babel",
