@@ -20,6 +20,7 @@ declare module "react-treebeard" {
     data: TreebeardNode | TreebeardNode[];
     decorators?: Decorators;
     animations?: boolean;
+    style?: any;
     onToggle?(node: TreebeardNode): void;
     onTriangleClick?(node: TreebeardNode, toggled: boolean): void;
   }
