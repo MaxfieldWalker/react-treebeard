@@ -1,4 +1,4 @@
-declare module "react-treebeard" {
+declare module "@maxfield/react-treebeard" {
   export interface DecoratorsProps {
     node: TreebeardNode;
     style: { [key: string]: React.CSSProperties };
