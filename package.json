@@ -1,7 +1,7 @@
 {
   "name": "@maxfield/react-treebeard",
   "version": "4.0.0",
-  "description": "React Tree View Component (Cyber Agent git-push-hackathon edition)",
+  "description": "React Tree View Component (git-push-hackathon edition)",
   "main": "index.js",
   "typings": "./react-treebeard.d.ts",
   "scripts": {
@@ -71,7 +71,7 @@
     "react-dom": "^16.4.2",
     "react-hot-loader": "^4.3.5",
     "rimraf": "^2.4.4",
-    "sinon": "uberVU/Sinon.JS.git",
+    "sinon": "github:uberVU/Sinon.JS",
     "sinon-chai": "^2.8.0",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
@@ -84,5 +84,10 @@
     "prop-types": "^15.6.2",
     "shallowequal": "^1.1.0",
     "velocity-react": "^1.4.1"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   }
 }
